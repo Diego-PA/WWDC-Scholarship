@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fcD-sv-Xiz">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Book Sources Live View Controller-->
+        <scene sceneID="HVS-ZB-wEb">
+            <objects>
+                <viewController id="fcD-sv-Xiz" customClass="Book_Sources_LiveViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rh2-0a-zph">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Live View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h6a-7e-CMz">
+                                <rect key="frame" x="151" y="323" width="73" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <skView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="daZ-lA-H3l" customClass="Book_Sources_LiveViewController_1_1">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="315"/>
+                            </skView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="daZ-lA-H3l" firstAttribute="leading" secondItem="qaR-nP-dw0" secondAttribute="leading" id="0MT-3X-XJR"/>
+                            <constraint firstItem="h6a-7e-CMz" firstAttribute="leading" secondItem="qaR-nP-dw0" secondAttribute="leading" constant="151" id="6Ug-mT-NeD"/>
+                            <constraint firstItem="h6a-7e-CMz" firstAttribute="top" secondItem="daZ-lA-H3l" secondAttribute="bottom" constant="8" id="Bok-sF-p9Y"/>
+                            <constraint firstItem="h6a-7e-CMz" firstAttribute="centerX" secondItem="Rh2-0a-zph" secondAttribute="centerX" id="DgE-dK-YaV"/>
+                            <constraint firstItem="daZ-lA-H3l" firstAttribute="trailing" secondItem="qaR-nP-dw0" secondAttribute="trailing" id="K3b-NF-uvw"/>
+                            <constraint firstItem="daZ-lA-H3l" firstAttribute="top" secondItem="qaR-nP-dw0" secondAttribute="top" id="KuA-p4-r4Z"/>
+                            <constraint firstItem="qaR-nP-dw0" firstAttribute="bottom" secondItem="h6a-7e-CMz" secondAttribute="bottom" constant="323" id="Qa9-Ha-KMX"/>
+                            <constraint firstItem="qaR-nP-dw0" firstAttribute="trailing" secondItem="h6a-7e-CMz" secondAttribute="trailing" constant="151" id="YNY-co-3iN"/>
+                            <constraint firstItem="h6a-7e-CMz" firstAttribute="top" secondItem="daZ-lA-H3l" secondAttribute="bottom" constant="8" id="Ynl-XQ-8pa"/>
+                            <constraint firstItem="qaR-nP-dw0" firstAttribute="bottom" secondItem="h6a-7e-CMz" secondAttribute="bottom" constant="323" id="h7S-Tw-pCx"/>
+                            <constraint firstItem="qaR-nP-dw0" firstAttribute="bottom" secondItem="h6a-7e-CMz" secondAttribute="bottom" constant="323" id="qtZ-Bs-bIL"/>
+                            <constraint firstItem="h6a-7e-CMz" firstAttribute="leading" secondItem="qaR-nP-dw0" secondAttribute="leading" constant="151" id="rAy-eQ-yCw"/>
+                            <constraint firstItem="h6a-7e-CMz" firstAttribute="centerY" secondItem="Rh2-0a-zph" secondAttribute="centerY" id="rsb-9d-7m1"/>
+                            <constraint firstItem="qaR-nP-dw0" firstAttribute="trailing" secondItem="h6a-7e-CMz" secondAttribute="trailing" constant="151" id="sNQ-6w-cFI"/>
+                            <constraint firstItem="h6a-7e-CMz" firstAttribute="top" secondItem="daZ-lA-H3l" secondAttribute="bottom" constant="8" id="yOM-bo-8I1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qaR-nP-dw0"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uvi-wC-fap" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-247.19999999999999" y="95.802098950524751"/>
+        </scene>
+    </scenes>
+</document>
